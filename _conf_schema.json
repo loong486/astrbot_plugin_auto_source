@@ -1,0 +1,38 @@
+{
+  "title": "自动搜图插件配置",
+  "type": "object",
+  "properties": {
+    "saucenao_key": {
+      "type": "string",
+      "title": "SauceNAO API Key",
+      "description": "用于插画来源查询"
+    },
+    "bing_key": {
+      "type": "string",
+      "title": "Bing Visual Search Key",
+      "description": "用于真实照片来源查询"
+    },
+    "similarity_threshold": {
+      "type": "number",
+      "title": "相似度阈值",
+      "default": 80,
+      "description": "SauceNAO 结果过滤阈值（0-100）"
+    },
+    "enable_saucenao": {
+      "type": "boolean",
+      "title": "启用 SauceNAO",
+      "default": true
+    },
+    "enable_ascii2d": {
+      "type": "boolean",
+      "title": "启用 Ascii2D",
+      "default": true
+    },
+    "enable_bing": {
+      "type": "boolean",
+      "title": "启用 Bing Visual Search",
+      "default": true
+    }
+  },
+  "required": ["saucenao_key"]
+}

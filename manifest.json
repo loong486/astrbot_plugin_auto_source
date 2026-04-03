@@ -1,0 +1,8 @@
+{
+  "id": "astrbot_plugin_auto_source",
+  "name": "自动插画来源查询",
+  "version": "2.0.0",
+  "author": "你",
+  "description": "自动选择 SauceNAO / Ascii2D / Bing 进行插画来源查询，支持多图、压缩、类型识别、缓存",
+  "entry": "main.py"
+}
